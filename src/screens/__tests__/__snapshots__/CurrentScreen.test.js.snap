@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the current screen 1`] = `
+<View>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      Object {
+        "colors": Array [
+          4278224127,
+          4280070121,
+        ],
+        "endPoint": Array [
+          1,
+          1,
+        ],
+        "locations": undefined,
+        "startPoint": Array [
+          0,
+          0,
+        ],
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": "100%",
+        },
+      ]
+    }
+  >
+    <RCTScrollView>
+      <View>
+        <Text>
+          Current screen
+        </Text>
+      </View>
+    </RCTScrollView>
+  </ViewManagerAdapter_ExpoLinearGradient>
+</View>
+`;
