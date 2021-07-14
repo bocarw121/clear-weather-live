@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the Loading 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgb(0, 132, 255)",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "padding": 10,
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#fff"
+    hidesWhenStopped={true}
+    size="small"
+  />
+</View>
+`;
