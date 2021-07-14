@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the InfoItemContainer 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "space-evenly",
+      "marginBottom": 50,
+      "marginTop": 50,
+    }
+  }
+/>
+`;

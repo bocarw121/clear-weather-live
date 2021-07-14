@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the WeatherText 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "marginTop": 10,
+        "textAlign": "center",
+      },
+      Object {
+        "color": undefined,
+        "fontSize": undefined,
+      },
+    ]
+  }
+/>
+`;

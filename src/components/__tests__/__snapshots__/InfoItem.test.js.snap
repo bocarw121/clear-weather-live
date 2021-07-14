@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the InfoItem 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 20,
+        "paddingTop": 10,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#fdf02a",
+        "fontSize": 18,
+        "paddingTop": 10,
+      }
+    }
+  >
+    undefined 
+  </Text>
+</View>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the City 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#fff",
+      "fontSize": 34,
+      "marginBottom": 15,
+      "marginTop": 15,
+      "textAlign": "center",
+    }
+  }
+/>
+`;
