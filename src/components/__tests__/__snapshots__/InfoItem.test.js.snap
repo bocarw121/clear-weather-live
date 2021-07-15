@@ -5,6 +5,8 @@ exports[`Should render the InfoItem 1`] = `
   style={
     Object {
       "alignItems": "center",
+      "fontWeight": "bold",
+      "justifyContent": "space-around",
     }
   }
 >
@@ -16,17 +18,19 @@ exports[`Should render the InfoItem 1`] = `
         "paddingTop": 10,
       }
     }
-  />
+  >
+    
+  </Text>
   <Text
     style={
       Object {
         "color": "#fdf02a",
-        "fontSize": 18,
+        "fontSize": 19,
         "paddingTop": 10,
       }
     }
   >
-    undefined 
+    0 
   </Text>
 </View>
 `;
