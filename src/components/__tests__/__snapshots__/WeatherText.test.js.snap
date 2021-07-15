@@ -5,7 +5,6 @@ exports[`Should render the WeatherText 1`] = `
   style={
     Array [
       Object {
-        "marginTop": 10,
         "textAlign": "center",
       },
       Object {

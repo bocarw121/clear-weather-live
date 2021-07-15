@@ -21,9 +21,11 @@ const styles = StyleSheet.create({
   temp: {
     fontSize: 64,
     color: colors.text.yellow,
+    marginTop: 10,
   },
   feels: {
     color: colors.text.light,
     fontSize: 18,
+    marginTop: 10,
   },
 });

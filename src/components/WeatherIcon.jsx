@@ -21,5 +21,5 @@ const WeatherIcon = ({ icon, id }) => {
 export default WeatherIcon;
 
 const styles = StyleSheet.create({
-  image: { width: 150, height: 150, marginBottom: -10, marginTop: -20 },
+  image: { width: 150, height: 150, marginBottom: -20, marginTop: -20 },
 });

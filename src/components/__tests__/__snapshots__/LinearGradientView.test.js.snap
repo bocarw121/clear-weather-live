@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render the current screen 1`] = `
+exports[`Should render the LinearGradientView 1`] = `
 <View>
   <ViewManagerAdapter_ExpoLinearGradient
     proxiedProperties={
       Object {
         "colors": Array [
           4278224127,
-          4280070121,
+          4279857894,
         ],
         "endPoint": Array [
           1,

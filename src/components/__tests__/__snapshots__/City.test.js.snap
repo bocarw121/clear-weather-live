@@ -6,7 +6,7 @@ exports[`Should render the City 1`] = `
     Object {
       "color": "#fff",
       "fontSize": 34,
-      "marginBottom": 15,
+      "marginBottom": 10,
       "marginTop": 15,
       "textAlign": "center",
     }
