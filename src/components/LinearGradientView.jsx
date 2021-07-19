@@ -1,6 +1,7 @@
 import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
 import { StyleSheet, View, ScrollView } from "react-native";
+
 import colors from "../constants/colors";
 
 const LinearGradientView = ({ children }) => {

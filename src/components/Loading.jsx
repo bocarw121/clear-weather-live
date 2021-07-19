@@ -17,11 +17,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    backgroundColor: colors.linearGradient[0],
   },
   horizontal: {
     flexDirection: "row",
     justifyContent: "space-around",
     padding: 10,
+    marginTop: "80%",
   },
 });

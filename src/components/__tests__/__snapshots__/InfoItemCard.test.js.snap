@@ -5,7 +5,7 @@ exports[`Should render the InfoItemCard 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "rgb(0, 132, 255)",
+        "backgroundColor": "#0084ff",
         "borderColor": "#fff",
         "borderRadius": 8,
         "borderWidth": 2,
