@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the Date 1`] = `
+<Text
+  style={
+    Object {
+      "fontSize": 16,
+      "marginLeft": 10,
+      "marginTop": 10,
+    }
+  }
+>
+  Updated: 
+</Text>
+`;

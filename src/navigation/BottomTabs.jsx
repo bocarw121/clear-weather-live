@@ -1,9 +1,9 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
+import { CurrentNavigator, HourlyNavigator, WeeklyNavigator } from "./Stack";
 import TabBarIcons from "./components/TabBarIcons";
 import colors from "../constants/colors";
-import { CurrentNavigator, HourlyNavigator, WeeklyNavigator } from "./Stack";
 
 const bottomTab = createBottomTabNavigator();
 
