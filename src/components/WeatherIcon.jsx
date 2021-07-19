@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet } from "react-native";
 
-import { iconUrl } from "../util/config";
+import { iconUrl } from "../api/urls";
 import Loading from "./Loading";
 import Image from "react-native-remote-svg";
 

@@ -1,4 +1,4 @@
-import { apiUrl } from "../util/config";
+import { apiUrl } from "./urls";
 
 /**
  * Takes in coordinates and an exnpoint
