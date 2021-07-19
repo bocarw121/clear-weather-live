@@ -1,17 +1,17 @@
 import React from "react";
 import { StyleSheet } from "react-native";
+
+import { iconUrl } from "../util/config";
+import Loading from "./Loading";
 import Image from "react-native-remote-svg";
 
-import { filterWeatherIcons } from "../util/icons/filterWeatherIcons";
-
 const WeatherIcon = ({ icon, id }) => {
-  const newIcon = filterWeatherIcons(icon, id);
-  const defaultIcon = `http://openweathermap.org/img/wn/${icon}@4x.png`;
+  if (!icon) return <Loading size="Large" />;
 
   return (
     <Image
       source={{
-        uri: newIcon || defaultIcon,
+        uri: iconUrl(icon, id),
       }}
       style={styles.image}
     />
@@ -21,5 +21,5 @@ const WeatherIcon = ({ icon, id }) => {
 export default WeatherIcon;
 
 const styles = StyleSheet.create({
-  image: { width: 150, height: 150, marginBottom: -20, marginTop: -20 },
+  image: { width: 150, height: 150, position: "relative", top: 5 },
 });

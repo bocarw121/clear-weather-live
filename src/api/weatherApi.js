@@ -1,3 +1,5 @@
+import { apiUrl } from "../util/config";
+
 /**
  * Takes in coordinates and an exnpoint
  * and returns the weather data from the
@@ -6,13 +8,10 @@
  * @param  {object} coordinates latitude, longitude
  * @param  {string} endpoint
  */
-export const fetchWeatherData = async ({ coords, endpoint }) => {
-  const { latitude, longitude } = coords;
 
+export const fetchWeatherData = async ({ coords, endpoint }) => {
   // eslint-disable-next-line no-undef
-  const response = await fetch(
-    `http://192.168.0.111:3000/api/${endpoint}?latitude=${latitude}&longitude=${longitude}`,
-  );
+  const response = await fetch(apiUrl({ coords, endpoint }));
 
   const data = await response.json();
 
